@@ -1,0 +1,399 @@
+@charset "UTF-8";
+
+*{
+	box-sizing: border-box;
+	padding: 0px;
+	margin: 0px;
+	line-height: 1;
+}
+a{
+	text-decoration: none;
+}
+
+.header{
+	width:100%;
+	position:fixed;
+	top:0px;
+	left: 0px;
+}
+.header .innerHeader{
+	max-width: 1000px;
+    text-align: center;
+    margin: 0 auto;
+    min-width: 750px;
+}
+.headerUl{
+	padding: 30px 0 0 0;
+}
+.headerUl li{
+	display: inline-block;
+    margin: 0 4%;
+    font-size: 12pt;
+    color: white;
+    vertical-align: middle;
+}
+.headerUl li a{
+	color:white;
+	font-size: 14pt;
+	padding-bottom: 3px;
+	cursor: pointer;
+}
+.headerUl li .h_a:hover{
+	border-bottom: 2px solid white;
+}
+.headerUl li .h_a2:hover{
+	border-bottom: 2px solid #282828 !important;
+}
+.headerUl li img{
+	width: 35px;
+}
+
+
+
+
+
+.mainbody .bannerBox{
+	min-height: 730px;
+    /* height: 0px; */
+    background-image: url(/resources/images/mainBack03.png);
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.mainbody .layout{
+	width: 1000px;
+	margin: 0 auto;
+}
+.mainbody .layout .bannerCon{
+    text-align: center;
+    padding-top: 215px;
+    color: white;
+}
+.mainbody .layout .bannerCon h1{
+    font-size: 50pt;
+}
+.mainbody .layout .bannerCon h4{
+	font-size: 20pt;
+    font-weight: 100;
+    letter-spacing: 10pt;
+    padding-bottom: 5px;
+    border-bottom: 1px solid white;
+    display: inline-block;
+}
+.mainbody .layout .bannerCon h5{
+    font-size: 20pt;
+    padding-top: 10px;
+}
+.mainbody .aboutBox{
+	text-align: center;
+    padding-bottom: 80px;
+}
+.mainbody .aboutBox h2{
+	font-size: 35pt;
+    padding-top: 10px;
+    display: inline-block;
+    border-bottom: 2px solid #ff8c00;
+    color: #282828;
+    margin-bottom: 25px;
+}
+.mainbody .aboutBox h5{
+	display: inline-block;
+    font-weight: 200;
+    font-size: 14pt;
+    color: #787878;
+    letter-spacing: -0.2pt;
+    line-height: 20pt;
+}
+.mainbody .aboutBox .aboutPoint{
+	font-weight: bold;
+    color: #282828;
+}
+.mainbody .resumeBox{
+	background-color: #f5f5f5;
+	padding-top: 50px;
+}
+.mainbody .resumeBox .center{
+	text-align: center;
+}
+.mainbody .resumeBox h2{
+	font-size: 35pt;
+    padding-top: 10px;
+    display: inline-block;
+    border-bottom: 2px solid #ff8c00;
+    color: #282828;
+    margin-bottom: 25px;
+}
+.mainbody .resumeBox h5{
+	display: inline-block;
+    font-size: 14pt;
+    font-weight: 200;
+    color: #505050;
+    line-height: 20pt;
+    letter-spacing: -0.2pt;
+}
+.mainbody .resumeCon{
+    padding-top: 60px;
+}
+.mainbody .resumeCon .reConLeft{
+    display: inline-block;
+    width: 250px;
+    vertical-align: text-top;
+    text-align: left;
+    padding-top: 8px;
+}
+.mainbody .resumeCon .reConCenter{
+    display: inline-block;
+    border: 3px solid #ff8c00;
+    width: 24px;
+    height: 24px;
+    border-radius: 15px;
+    vertical-align: text-top;
+    position: absolute;
+    background-color: #f5f5f5;
+    text-align: center;
+}
+.mainbody .resumeCon .reConRight{
+    display: inline-block;
+    width: 730px;
+    text-align: left;
+    padding-left: 50px;
+    padding-top: 8px;
+    vertical-align: text-top;
+    border-left: 1px solid #ff8c00;
+    margin-left: 12px;
+}
+.mainbody .reConLeft h3{
+	color: #ff8c00;
+    font-weight: normal;
+    font-size: 14pt;
+    padding-bottom: 5px;
+}
+.mainbody .reConLeft h5{
+    font-size: 12pt;
+    color: #787878;
+    font-weight: 100;
+    
+}
+.mainbody .reConRight h5{
+	font-size: 14pt;
+    color: #505050;
+    font-weight: 200;
+}
+.mainbody .reConRight ul{
+	padding: 15px 0 40px 30px;
+}
+.mainbody .reConRight ul li{
+	color: #505050;
+    font-weight: 100;
+    font-size: 12pt;
+    padding-top: 10px;
+    letter-spacing: -0.2pt;
+}
+.mainbody .reConCenter div{
+	background-color: #ff8c00;
+    width: 10px;
+    height: 10px;
+    border-radius: 10px;
+    margin: 0 auto;
+    margin-top: 4px;
+}
+.mainbody .sparePadding{
+	padding-bottom: 40px;
+}
+.mainbody .reConTitle h3{
+    font-size: 14pt;
+    font-weight: bold;
+    padding-bottom: 5px;
+    display: inline-block;
+    width: 49%;
+}
+.mainbody .reConTitle h5{
+    font-size: 10pt;
+    font-weight: 100;
+    padding-bottom: 5px;
+    display: inline-block;
+    width: 50%;
+    text-align: right;
+    color: #787878;
+}
+
+.mainbody .workBox{
+	background-color: #787878;
+}
+.mainbody .workBox .center{
+	text-align: center;
+}
+.mainbody .workBox h1{
+    padding: 50px 0 0px 0;
+    color: white;
+    font-size: 35pt;
+    font-weight: bold;
+    border-bottom: 2px solid #ff8c00;
+    display: inline-block;
+    margin-bottom: 25px;
+}
+.mainbody .workBox h5{
+	font-weight: 200;
+    font-size: 14pt;
+    color: white;
+    letter-spacing: -0.2pt;
+}
+.mainbody .workBox .numbering{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding-top: 50px;
+}
+.mainbody .numbering h2{
+    width: 325px;
+    color: #505050;
+    font-size: 24pt;
+    font-weight: bold;
+    padding-bottom: 5px;
+}
+.mainbody .workBox .workUnitMom{
+    display: flex;
+    flex-wrap: wrap;
+    padding-bottom: 60px;
+    justify-content: space-between;
+}
+.mainbody .workUnit:nth-child(1){
+	background-image: url("/resources/images/link01.png");
+} 
+.mainbody .workUnit:nth-child(2){
+	background-image: url("/resources/images/link02.png");
+} 
+.mainbody .workUnit:nth-child(3){
+	background-image: url("/resources/images/link03.png");
+} 
+.mainbody .workBox .workUnit{
+	background-size: cover;
+}
+.mainbody .workBox .workUnit{
+    width: 320px;
+    height: 200px;
+    display: inline-block;
+}
+.mainbody .workUnit div{
+	width:100%;
+	height:100%;
+	display: none;
+}
+.mainbody .workUnit div h3{
+    padding-top: 49px;
+    font-size: 16pt;
+    font-weight: bold;
+    color: #ff8c00;
+    padding-bottom: 5px;
+}
+.mainbody .workUnit div h4{
+    font-size: 13pt;
+    font-weight: 200;
+    color: white;
+    padding-bottom: 25px;
+    line-height: 1.2;
+    letter-spacing: -0.2pt;
+}
+.mainbody .workUnit div h5{
+	    display: inline-block;
+    font-weight: 100;
+}
+.mainbody .workUnit div .conName{
+    width: 70px;
+    text-align: left;
+    font-size: 10pt;
+}
+.mainbody .workUnit div .conVal{
+	width: 50px;
+    font-size: 12pt;
+    text-align: left;
+    color: #ff8c00;
+    font-weight: normal;
+    padding-bottom: 5px;
+}
+.mainbody .workUnit:hover div{
+	width:100%;
+	height:100%;
+	background-color:rgba(0,0,0,0.8);
+	display: block;
+}
+.mainbody .workUnit .linkGo{
+	
+}
+
+
+
+
+
+
+
+
+
+.footer{
+	background-color: #282828;
+}
+.footer .center{
+	text-align: center;
+}
+.footer .layout div:nth-child(1){
+    margin-bottom: 60px;
+}
+.footer .layout div:nth-child(1) h1{
+    padding: 50px 0 0 0;
+    font-size: 35pt;
+    color: white;
+    font-weight: bold;
+    border-bottom: 2px solid #ff8c00;
+    display: inline-block;
+    margin-bottom: 25px;
+}
+.footer .layout div:nth-child(1) h5{
+    color: white;
+    font-size: 14pt;
+    font-weight: 200;
+    line-height: 20pt;
+}
+.footer .footLeft{
+	display: inline-block;
+    text-align: left;
+    width: 100px;
+}
+.footer .footLeft h4{
+    display: inline-block;
+    color: white;
+    font-weight: 100;
+    padding-bottom: 10px;
+    font-size: 12pt;
+}
+.footer .footRight{
+	display: inline-block;
+    text-align: left;
+    width: 200px;
+}
+.footer .footRight h4{
+    display: inline-block;
+    text-align: left;
+    color: white;
+    padding-bottom: 10px;
+    font-weight: normal;
+    font-size: 12pt;
+}
+.footer .footRight .pointC{
+	color:#ff8c00;
+}
+.footer .copyRight{
+    width: 1000px;
+    margin: 0 auto;
+}
+.footer .copyRight h5{
+    padding: 10px 0 15px 0;
+    font-weight: 200;
+    color: #707070;
+    font-size: 10pt;
+    border-top: 1px solid #707070;
+    /* background-color: #ff8c00; */
+    margin-top: 40px;
+}
+
+
